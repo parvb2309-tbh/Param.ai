@@ -1,0 +1,22 @@
+{
+  "name": "param",
+  "version": "0.1.1",
+  "description": "Connect Codex to a scoped Param instance.",
+  "author": {
+    "name": "Param"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Param",
+    "shortDescription": "Use scoped Param tools from Codex.",
+    "longDescription": "Connects Codex terminal sessions to Param through user-controlled scoped API tokens. Codex must use /api/codex/* endpoints so Param Settings can enforce tool access.",
+    "developerName": "Param",
+    "category": "Productivity",
+    "capabilities": [
+      "todos",
+      "email",
+      "scoped-api"
+    ],
+    "defaultPrompt": "Use Param only through configured scoped access. Check capabilities before reading or writing data."
+  }
+}
