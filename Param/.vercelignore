@@ -1,0 +1,7 @@
+venv
+data
+logs
+tests
+static
+node_modules
+__pycache__

@@ -1,0 +1,9 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/param-dev/param.git"
+  },
+  "devDependencies": {
+    "@antithesishq/bombadil": "^0.7.0"
+  }
+}
